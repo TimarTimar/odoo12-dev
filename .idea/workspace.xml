@@ -22,18 +22,8 @@
     <list default="true" id="b3a2cec4-139b-44b9-8634-948b7bec8f2b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/odoo-server/addons/website_sale/controllers/backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/odoo-server/addons/website_sale/controllers/backend.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odoo.conf" beforeDir="false" afterPath="$PROJECT_DIR$/odoo.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/__manifest__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/models/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/models/citadel.py" beforeDir="false" afterPath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/models/citadel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/models/maesters.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/models/sessions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/models/students.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/security/ir.model.access.csv" beforeDir="false" afterPath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/security/ir.model.access.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/views/classes_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/views/classes_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/views/maesters_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/views/maesters_view.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/views/sessions_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/views/sessions_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/views/students_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/views/students_view.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,22 +119,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="854" y="453" key="Github.ShareDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1590861318345" />
-    <state width="1830" height="259" key="GridCell.Tab.0.bottom" timestamp="1590920234675">
+    <state width="1830" height="259" key="GridCell.Tab.0.bottom" timestamp="1590926397368">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="259" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1590920234675" />
-    <state width="1830" height="259" key="GridCell.Tab.0.center" timestamp="1590920234674">
+    <state width="1830" height="259" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1590926397368" />
+    <state width="1830" height="259" key="GridCell.Tab.0.center" timestamp="1590926397367">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="259" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1590920234674" />
-    <state width="1830" height="259" key="GridCell.Tab.0.left" timestamp="1590920234673">
+    <state width="1830" height="259" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1590926397367" />
+    <state width="1830" height="259" key="GridCell.Tab.0.left" timestamp="1590926397367">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="259" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1590920234673" />
-    <state width="1830" height="259" key="GridCell.Tab.0.right" timestamp="1590920234675">
+    <state width="1830" height="259" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1590926397367" />
+    <state width="1830" height="259" key="GridCell.Tab.0.right" timestamp="1590926397367">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="259" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1590920234675" />
+    <state width="1830" height="259" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1590926397367" />
     <state x="446" y="192" key="SettingsEditor" timestamp="1590867332640">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
