@@ -38,5 +38,5 @@
         <field name="res_model">classes.classes</field>
         <field name="view_mode">tree,form</field>
     </record>
-    <menuitem id="classes_menu" name="Classes" sequence="4" action="classes_action"></menuitem>
+    <menuitem id="classes_menu" name="Classes" parent="sessions_menu" sequence="4" action="classes_action"></menuitem>
 </odoo>

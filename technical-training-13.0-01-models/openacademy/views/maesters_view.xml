@@ -32,5 +32,5 @@
         <field name="res_model">maesters.maesters</field>
         <field name="view_mode">tree,form</field>
     </record>
-    <menuitem id="maesters_menu" name="Maesters" sequence="4" action="maesters_action"></menuitem>
+    <menuitem id="maesters_menu" name="Maesters" parent="sessions_menu" sequence="4" action="maesters_action"></menuitem>
 </odoo>

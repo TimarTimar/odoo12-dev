@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--author form view -->
+    <record id="author_form" model="ir.ui.view">
+        <field name="name">Name</field>
+        <field name="model">author.author</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </group>
+                </sheet>
+
+            </form>
+        </field>
+    </record>
+    <record id="author_tree" model="ir.ui.view">
+        <field name="name">Name</field>
+        <field name="model">author.author</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+    <record id="author_action" model="ir.actions.act_window">
+        <field name="name">author</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">author.author</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <menuitem id="author_menu" name="author" parent="rent_menu" sequence="1" action="author_action"></menuitem>
+</odoo>

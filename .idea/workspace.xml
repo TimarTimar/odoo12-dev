@@ -20,10 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3a2cec4-139b-44b9-8634-948b7bec8f2b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/technical-training-13.0-01-models/library/models/rentbook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical-training-13.0-01-models/library/views/author_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical-training-13.0-01-models/library/views/book_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical-training-13.0-01-models/library/views/customer_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical-training-13.0-01-models/library/views/rent_view.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/odoo-server/addons/website_sale/controllers/backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/odoo-server/addons/website_sale/controllers/backend.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/models/citadel.py" beforeDir="false" afterPath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/models/citadel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/views/sessions_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/views/sessions_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-training-13.0-01-models/library/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/technical-training-13.0-01-models/library/__manifest__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-training-13.0-01-models/library/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/technical-training-13.0-01-models/library/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-training-13.0-01-models/library/security/ir.model.access.csv" beforeDir="false" afterPath="$PROJECT_DIR$/technical-training-13.0-01-models/library/security/ir.model.access.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/views/classes_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/views/classes_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/views/maesters_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/views/maesters_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/views/students_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/technical-training-13.0-01-models/openacademy/views/students_view.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +73,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/odoo-server/odoo-bin" />
-      <option name="PARAMETERS" value="-c $PROJECT_DIR$/odoo.conf -u openacademy" />
+      <option name="PARAMETERS" value="-c $PROJECT_DIR$/odoo.conf -u library" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -99,10 +108,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="540" y="232" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590916763796">
+    <state x="540" y="232" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590930183424">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="540" y="232" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1590916763796" />
+    <state x="540" y="232" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1590930183424" />
     <state x="776" y="261" width="424" height="584" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1590860318166">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -119,22 +128,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="854" y="453" key="Github.ShareDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1590861318345" />
-    <state width="1830" height="259" key="GridCell.Tab.0.bottom" timestamp="1590926397368">
+    <state width="1830" height="259" key="GridCell.Tab.0.bottom" timestamp="1590937032757">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="259" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1590926397368" />
-    <state width="1830" height="259" key="GridCell.Tab.0.center" timestamp="1590926397367">
+    <state width="1830" height="259" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1590937032757" />
+    <state width="1830" height="259" key="GridCell.Tab.0.center" timestamp="1590937032757">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="259" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1590926397367" />
-    <state width="1830" height="259" key="GridCell.Tab.0.left" timestamp="1590926397367">
+    <state width="1830" height="259" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1590937032757" />
+    <state width="1830" height="259" key="GridCell.Tab.0.left" timestamp="1590937032757">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="259" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1590926397367" />
-    <state width="1830" height="259" key="GridCell.Tab.0.right" timestamp="1590926397367">
+    <state width="1830" height="259" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1590937032757" />
+    <state width="1830" height="259" key="GridCell.Tab.0.right" timestamp="1590937032757">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="259" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1590926397367" />
+    <state width="1830" height="259" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1590937032757" />
     <state x="446" y="192" key="SettingsEditor" timestamp="1590867332640">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -143,9 +152,13 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="687" height="446" key="SwitcherDM/67.27.1853.1053@67.27.1853.1053" timestamp="1590876266131" />
-    <state x="648" y="165" width="618" height="783" key="find.popup" timestamp="1590876470438">
+    <state x="927" y="239" width="618" height="783" key="find.popup" timestamp="1590929979134">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="648" y="165" width="618" height="783" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1590876470438" />
+    <state x="927" y="239" width="618" height="783" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1590929979134" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1590929715767">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1590929715767" />
   </component>
 </project>
