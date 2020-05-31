@@ -27,10 +27,10 @@
         </field>
     </record>
     <record id="sessions_action" model="ir.actions.act_window">
-        <field name="name">sessions</field>
+        <field name="name">Sessions</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">sessions.sessions</field>
         <field name="view_mode">tree,form</field>
     </record>
-    <menuitem id="sessions_menu" name="sessions" sequence="4" action="sessions_action"></menuitem>
+    <menuitem id="sessions_menu" name="Sessions" sequence="4" action="sessions_action"></menuitem>
 </odoo>

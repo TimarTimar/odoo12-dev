@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <!--maestres form view -->
-    <record id="maestres_form" model="ir.ui.view">
+    <!--maesters form view -->
+    <record id="maesters_form" model="ir.ui.view">
         <field name="name">Name</field>
-        <field name="model">maestres.maestres</field>
+        <field name="model">maesters.maesters</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>
@@ -17,20 +17,20 @@
             </form>
         </field>
     </record>
-    <record id="maestres_tree" model="ir.ui.view">
+    <record id="maesters_tree" model="ir.ui.view">
         <field name="name">Name</field>
-        <field name="model">maestres.maestres</field>
+        <field name="model">maesters.maesters</field>
         <field name="arch" type="xml">
             <tree>
                 <field name="name"/>
             </tree>
         </field>
     </record>
-    <record id="maestres_action" model="ir.actions.act_window">
-        <field name="name">Maestres</field>
+    <record id="maesters_action" model="ir.actions.act_window">
+        <field name="name">maesters</field>
         <field name="type">ir.actions.act_window</field>
-        <field name="res_model">maestres.maestres</field>
+        <field name="res_model">maesters.maesters</field>
         <field name="view_mode">tree,form</field>
     </record>
-    <menuitem id="maestres_menu" name="Maestres" sequence="4" action="maestres_action"></menuitem>
+    <menuitem id="maesters_menu" name="Maesters" sequence="4" action="maesters_action"></menuitem>
 </odoo>
