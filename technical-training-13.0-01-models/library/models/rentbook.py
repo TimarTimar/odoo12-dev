@@ -42,20 +42,24 @@ class rent(models.Model):
     customer_id = fields.Many2one('customer.customer', string="Customer", required=True)
     book_ids = fields.Many2many('book.book', string="Books rented")
     return_date = fields.Date(string="Return Date")
-    customer_phone_number = fields.Char(readonly=True)
-    customer_email = fields.Char(readonly=True)
-    # TODO try with many2many fields or with onchange and loop
-    #book_publishers = fields.Many2many(compute='_list_publishers')
-    book_publishers=fields.Many2many('book.book', related='book_ids')
-    @api.onchange('customer_id')
-    def onchange_partner_id(self):
-        self.customer_phone_number = self.customer_id.phone_number
-        self.customer_email = self.customer_id.email
+    customer_phone_number = fields.Char(compute='_phone_number')
+    customer_email = fields.Char(compute='_email')
 
+    # TODO try with many2many fields or with onchange and loop
+    # book_publishers = fields.Many2many(compute='_list_publishers')
+    book_publishers = fields.Many2many('book.book', related='book_ids')
+
+    @api.depends('customer_id')
+    def _phone_number(self):
+        self.customer_phone_number = self.customer_id.phone_number
+
+    @api.depends('customer_id')
+    def _email(self):
+        self.customer_email = self.customer_id.email
 
     # Expected singleton. I could try to solve this with domain sql/python or maybe with api.multi
     @api.depends('book_ids')
     def _list_publishers(self):
         for record in self:
-            #record.book_publishers=record.book_ids.publisher_id.name
+            # record.book_publishers=record.book_ids.publisher_id.name
             pass
