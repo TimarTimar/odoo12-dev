@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--students form view -->
+    <record id="students_form" model="ir.ui.view">
+        <field name="name">Name</field>
+        <field name="model">students.students</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </group>
+                </sheet>
+
+            </form>
+        </field>
+    </record>
+    <record id="students_tree" model="ir.ui.view">
+        <field name="name">Name</field>
+        <field name="model">students.students</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+    <record id="students_action" model="ir.actions.act_window">
+        <field name="name">students</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">students.students</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <menuitem id="students_menu" name="students"  parent="sessions_menu"  sequence="4" action="students_action"></menuitem>
+</odoo>

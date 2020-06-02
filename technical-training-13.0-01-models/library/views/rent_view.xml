@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--rent form view -->
+    <record id="rent_form" model="ir.ui.view">
+        <field name="name">Name</field>
+        <field name="model">rent.rent</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="customer_id"/>
+                            <field name="book_ids" widget="many2many_tags"/>
+                            <field name="create_date"/>
+                            <field name="return_date"/>
+                        </group>
+                        <group>
+                            <field name="customer_phone_number"/>
+                            <field name="customer_email"/>
+                            <field name="book_publishers" />
+                        </group>
+                    </group>
+                </sheet>
+
+            </form>
+        </field>
+    </record>
+    <record id="rent_tree" model="ir.ui.view">
+        <field name="name">Name</field>
+        <field name="model">rent.rent</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="customer_id"/>
+                <field name="book_ids" widget="many2many_tags"/>
+                <field name="create_date"/>
+                <field name="return_date"/>
+            </tree>
+        </field>
+    </record>
+    <record id="rent_action" model="ir.actions.act_window">
+        <field name="name">rent</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">rent.rent</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <menuitem id="rent_menu" name="Book rentals" sequence="4" action="rent_action"></menuitem>
+    <menuitem id="rent_menu1" name="Book rentals" parent="rent_menu" sequence="4" action="rent_action"></menuitem>
+</odoo>

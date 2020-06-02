@@ -1,0 +1,6 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+access_for_book,Access Book,model_book_book,,1,1,1,1
+access_for_author,Access Author,model_book_author,,1,1,1,1
+access_for_customer,Access Customer,model_customer_customer,,1,1,1,1
+access_for_rent,Access Rent,model_rent_rent,,1,1,1,1
+access_for_publisher, Access Publisher,model_book_publisher,,1,1,1,1

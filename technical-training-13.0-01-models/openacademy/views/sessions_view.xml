@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--sessions form view -->
+    <record id="sessions_form" model="ir.ui.view">
+        <field name="name">Name</field>
+        <field name="model">sessions.sessions</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="student_ids" widget='many2many_tags'/>
+                            <field name="maesters_id"/>
+                            <field name="classes_id"/>
+                            <field name="session_date"/>
+                            <field name="room_size"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="sessions_tree" model="ir.ui.view">
+        <field name="name">Name</field>
+        <field name="model">sessions.sessions</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="student_ids" widget='many2many_tags'/>
+                <field name="maesters_id"/>
+                <field name="classes_id"/>
+                <field name="room_size"/>
+                <field name="session_date"/>
+            </tree>
+        </field>
+    </record>
+    <record id="sessions_action" model="ir.actions.act_window">
+        <field name="name">Sessions</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">sessions.sessions</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <menuitem id="sessions_menu" name="Sessions" sequence="4" action="sessions_action"></menuitem>
+    <menuitem id="sessions_menu1" name="Sessions" parent="sessions_menu" sequence="4" action="sessions_action"></menuitem>
+</odoo>

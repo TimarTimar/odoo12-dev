@@ -1,0 +1,5 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+access_for_classes,Access Classes,model_classes_classes,,1,1,1,1
+access_for_maesters,Access Maesters,model_maesters_maesters,,1,1,1,1
+access_for_students,Access Students,model_students_students,,1,1,1,1
+access_for_sessions,Access Sessions,model_sessions_sessions,,1,1,1,1
