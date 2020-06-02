@@ -14,6 +14,7 @@
                             <field name="classes_id"/>
                             <field name="session_date"/>
                             <field name="room_size"/>
+                            <field name="room_capacity" widget="progressbar"/>
                         </group>
                     </group>
                 </sheet>
@@ -29,6 +30,7 @@
                 <field name="maesters_id"/>
                 <field name="classes_id"/>
                 <field name="room_size"/>
+                <field name="room_capacity" widget="progressbar"/>
                 <field name="session_date"/>
             </tree>
         </field>
@@ -39,6 +41,6 @@
         <field name="res_model">sessions.sessions</field>
         <field name="view_mode">tree,form</field>
     </record>
-    <menuitem id="sessions_menu" name="Sessions" sequence="4" action="sessions_action"></menuitem>
-    <menuitem id="sessions_menu1" name="Sessions" parent="sessions_menu" sequence="4" action="sessions_action"></menuitem>
+    <menuitem id="sessions_menu" name="Sessions" sequence="4" action="sessions_action"/>
+    <menuitem id="sessions_menu1" name="Sessions" parent="sessions_menu" sequence="4" action="sessions_action"/>
 </odoo>

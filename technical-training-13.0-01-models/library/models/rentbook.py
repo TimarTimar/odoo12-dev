@@ -49,6 +49,8 @@ class rent(models.Model):
     # book_publishers = fields.Many2many(compute='_list_publishers')
     book_publishers = fields.Many2many('book.book', related='book_ids')
 
+    #TODO  Multiple fields can use the same compute function
+
     @api.depends('customer_id')
     def _phone_number(self):
         self.customer_phone_number = self.customer_id.phone_number

@@ -1,5 +1,6 @@
 from odoo import models, api, fields
 
+
 class Classes(models.Model):
     _name = 'classes.classes'
 
@@ -32,6 +33,15 @@ class Sessions(models.Model):
     classes_id = fields.Many2one('classes.classes', ondelete='cascade', string="Class")
     session_date = fields.Datetime(string="Starts from")
     room_size = fields.Integer()
+    room_capacity = fields.Float(string="Capacity", compute='_capacity')
+
+    @api.depends('room_size', 'student_ids')
+    def _capacity(self):
+        for record in self:
+            if record.room_size==0:
+                record.room_capacity = 0
+            else:
+                record.room_capacity = (len(record.student_ids) / record.room_size) * 100
 
     @api.onchange('room_size', 'student_ids')
     def _verify_valid_seats(self):
@@ -49,7 +59,3 @@ class Sessions(models.Model):
                     'message': "Increase room_size or remove participants",
                 },
             }
-
-
-
-
